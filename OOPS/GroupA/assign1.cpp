@@ -18,6 +18,7 @@ class Complex{
 Complex::Complex(){
     real = 0;
     imag = 0;
+    cout<<real<<"+"<<imag<<"i"<<"\n";
 }
 
 istream &operator>>(istream &in, Complex &c){
